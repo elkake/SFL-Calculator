@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+body{
+    background-color: #000;
+    font-size: 1em;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+    width: 100%;
+}
+
+.precios{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(30px,30px));
+    grid-auto-rows: minmax(30px,30px);
+    gap: 1em;
+    margin:0 1em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.precios li{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.precios img{
+    width: 8%;
+    height: 20%;
+    margin-right: 0.5em;
+}
+
+.comida{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-rows: repeat(auto-fill,1fr);
+   grid-auto-rows: 1fr;
+   gap: 1em;
+   margin: 1em;
+}
+
+.miniContainer{
+    background:linear-gradient(#77777744,#cccccc38,#55555544,#77777744);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.miniContainer img{
+    width: 200%;
+    margin-top: 1em ;
+}
+
+
+
+.seccion3 label:nth-child(2){
+    margin-left:1em ;
+    color: aqua;
+}
+
+.seccion4{
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion4 p:nth-child(2){
+
+    color: orange;
+}
